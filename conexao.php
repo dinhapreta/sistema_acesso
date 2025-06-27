@@ -1,12 +1,8 @@
 <?php
-$host = "sql201.infinityfree.com";         // Host do MySQL
-$user = "if0_39339520";                    // Nome de usuário
-$pass = "isSpzmzlJVdNuAF";                // Senha
-$db   = "if0_39339520_sistema_acesso";     // Nome do banco de dados
+require_once 'config.php';
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 if ($conn->connect_error) {
-  die("Erro na conexão: " . $conn->connect_error);
+    die("Falha na conexão: " . $conn->connect_error);
 }
-?>
