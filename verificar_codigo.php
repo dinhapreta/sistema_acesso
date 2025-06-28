@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     button:hover {
       background-color: #357abd;
     }
-    
+
     p {
       margin-top: 15px;
       font-size: 14px;
