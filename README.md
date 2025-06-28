@@ -1,4 +1,4 @@
-🛡️ Sistema de Login com Área Restrita - PHP + MySQL
+## 🛡️ Sistema de Login com Área Restrita - PHP + MySQL
 Este é um projeto simples e funcional de login, cadastro e área protegida, desenvolvido com PHP, MySQL e hospedado gratuitamente via InfinityFree.
 
 
@@ -51,6 +51,9 @@ $db = "seu_banco";
 3. Envie os arquivos para o gerenciador de arquivos da InfinityFree (via painel ou FTP).
 
 4. Acesse a URL do seu domínio gratuito e teste o sistema 🎉
+
+
+   
 
 ✍️ Desenvolvido por
 Aparecida Marques Pereira
